@@ -1,0 +1,45 @@
+
+
+.central{
+  background: linear-gradient(45deg,rgb(117, 216, 113),rgba(18, 240, 103, 0.699), rgb(116, 192, 243), rgb(69, 112, 255));
+  background-size: 100% 100%;
+}
+
+.sec_welcome .button{
+  margin: 40px 20px;
+  padding: 15px 30px;
+  font-size: 30px;
+
+  background-color: rgb(75, 177, 75);
+  color: #f5fffb;
+
+  font-family: 'Roboto', sans-serif;
+
+  transition: .7s;
+
+  border-radius: 12px;
+  border: none;
+
+  text-decoration: none;
+}
+
+.sec_welcome .button:hover{
+  background-color: #f5fffb;
+  color: rgb(1, 136, 53);
+
+  transition: .7s;
+}
+
+.sec_welcome{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 30px;
+}
+
+.sec_welcome div{
+  display: flex;
+  align-items: center;
+}
+

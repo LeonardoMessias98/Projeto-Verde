@@ -1,0 +1,73 @@
+.signin{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.switch_section{
+  display: flex;
+  flex-direction: row;
+}
+
+.switch_section h2{
+  padding-left: 10px;
+}
+
+.projeto_social_section{
+  margin-bottom: 50px;
+  font-size: 34px;
+}
+
+.sec_login{
+  background-color: #00000096;
+  padding: 60px;
+  border-radius: 12px;
+
+  color: #f5fffb;
+}
+
+.sec_login h1{
+  margin: 0;
+}
+
+.sec_login div{
+  display: flex;
+  flex-direction: column;
+}
+
+.sec_login input{
+  margin: 10px 0px;
+  padding: 10px 10px;
+  font-size: 25px;
+
+  background-color: #f5fffb;
+  color: rgb(75, 177, 75);
+
+  border: none;
+  border-radius: 12px;
+}
+
+.button_login{
+  margin: 10px 0px;
+  padding: 10px 0;
+  font-size: 25px;
+
+  background-color: rgb(75, 177, 75);
+  color: #f5fffb;
+  
+  text-decoration: none;
+  text-align: center;
+
+  border-radius: 12px;
+  border: none;
+
+  transition: .7s;
+}
+
+.button_login:hover{
+  background-color: #f5fffb;
+  color: rgb(1, 136, 53);
+
+  transition: .7s;
+}
